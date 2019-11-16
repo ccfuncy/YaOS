@@ -7,7 +7,7 @@ void timer_handler(struct regs *r){
     timer_ticks++;
 
     if(timer_ticks%18==0){
-        puts("One Second has passed\n");
+        puts("hello world\n");
     }
 }
 

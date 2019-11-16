@@ -3,7 +3,8 @@
 [BITS 32]
 global start
 start:
-    mov esp,_sys_stack      ;这里存储着我们系统栈的地址
+    mov esp,sys_stack      ;这里存储着我们系统栈的地址
+    area
     jmp stublet
 
 ALIGN 4
@@ -447,4 +448,4 @@ irq_common_stub:
 SECTION.bss
     resb 8192
 
-_sys_stack:
+sys_stack:

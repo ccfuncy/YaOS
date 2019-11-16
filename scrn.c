@@ -112,7 +112,7 @@ void settextcolor(unsigned char forecolor,unsigned char backcolor){
 
 //设置文本模式VGA指针, 并清屏
 void init_video(void){
-    //0xB800为VGA位置
-    textmemptr = (unsigned short *)0xB800;
+    //0xB8000为VGA位置
+    textmemptr = (unsigned short *)0xB8000;
     cls();
 }

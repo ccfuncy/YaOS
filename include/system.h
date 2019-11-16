@@ -1,10 +1,11 @@
 #ifndef __SYSTEM_H
 #define __SYSTEM_H
 /* MAIN.C */
+typedef int size_t;
 //复制
-extern unsigned char *memcpy(unsigned char *dest,const unsigned char *src,int count);
+extern void *memcpy(void *dest,const void *src,int count);
 //字符串值单字节设置
-extern unsigned char *memset(unsigned char *dest,unsigned char val,int count);
+extern void *memset(void *dest, char val,int count);
 //字符串值双字节设置
 extern unsigned short *memsetw(unsigned short *dest,unsigned short val,int count);
 //字符串长度

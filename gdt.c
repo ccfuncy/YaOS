@@ -59,8 +59,8 @@ void gdt_install(){
 
     //NULL描述符
     gdt_set_gate(SEL_NULL , 0, 0, 0, 0);
-    gdt_set_gate(SEL_KCODE, 0,LIMIT_SIZE,0X9A,GDT_GR | GDT_SZ);
-    gdt_set_gate(SEL_KDATA, 0,LIMIT_SIZE, 0x92, GDT_GR | GDT_SZ);
+    gdt_set_gate(SEL_KCODE, 0,LIMIT_SIZE,0X9A, 0xCF);
+    gdt_set_gate(SEL_KDATA, 0,LIMIT_SIZE, 0x92, 0xCF);
 
     /* 清除旧的GDT安装新的GDT */
     gdt_flush();
