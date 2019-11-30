@@ -11,35 +11,35 @@
 
 - 错误1
 
-  ![image-20191119152601402](C:\Users\YM\AppData\Roaming\Typora\typora-user-images\image-20191119152601402.png)
+  ![image-20191119152601402](pic/image-20191119152601402.png)
 
 > 解决办法 加上 -fno-pic
 
-![image-20191119152740496](C:\Users\YM\AppData\Roaming\Typora\typora-user-images\image-20191119152740496.png)
+![image-20191119152740496](pic/image-20191119152740496.png)
 
 - 错误2
 
-![image-20191119152832855](C:\Users\YM\AppData\Roaming\Typora\typora-user-images\image-20191119152832855.png)
+![image-20191119152832855](pic/image-20191119152832855.png)
 
 > 解决办法 加上 -m32
 
-![image-20191119152924467](C:\Users\YM\AppData\Roaming\Typora\typora-user-images\image-20191119152924467.png)
+![image-20191119152924467](pic/image-20191119152924467.png)
 
 - 错误3
 
-  ![image-20191119153117324](C:\Users\YM\AppData\Roaming\Typora\typora-user-images\image-20191119153117324.png)
+  ![image-20191119153117324](pic/image-20191119153117324.png)
 
 > 解决办法 更改输出
 
-![image-20191119153205846](C:\Users\YM\AppData\Roaming\Typora\typora-user-images\image-20191119153205846.png)
+![image-20191119153205846](pic/image-20191119153205846.png)
 
 - 错误4
 
-  ![image-20191119153244251](C:\Users\YM\AppData\Roaming\Typora\typora-user-images\image-20191119153244251.png)
+  ![image-20191119153244251](pic/image-20191119153244251.png)
 
 > 解决办法 
 
-![image-20191119153324787](C:\Users\YM\AppData\Roaming\Typora\typora-user-images\image-20191119153324787.png)
+![image-20191119153324787](pic/image-20191119153324787.png)
 
 - 错误5
 
