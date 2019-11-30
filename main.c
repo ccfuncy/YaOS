@@ -59,12 +59,13 @@ void main(){
     isrs_install();
     irq_install();
     init_video();
-    timer_install();
+    // timer_install();
     keyboard_install();
 
 
     __asm__ __volatile__ ("sti");
     puts("hello OS\n");
 
-    for (;;);
+    for (;;){
+    }
 }

@@ -1,5 +1,9 @@
 #ifndef __SYSTEM_H
 #define __SYSTEM_H
+#include "param.h"
+/* MALLOC.C*/
+int coremap[CMAPSIZ]; //主存资源图表
+int swapmap[SMAPSIZ];  //盘交换区资源图表
 /* MAIN.C */
 typedef int size_t;
 //复制

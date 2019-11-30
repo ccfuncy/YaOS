@@ -57,7 +57,7 @@ void irq_remap(void){
     outportb(0x21,0x0);
     outportb(0xA1,0x0);
 
-    puts("8259 init ok \n");
+    //puts("8259 init ok \n");
 }
 
 //将IRQ安装到idt中

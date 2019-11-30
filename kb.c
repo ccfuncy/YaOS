@@ -45,11 +45,12 @@ void keyboard_handler(struct regs *r){
     unsigned char scancode;
     //获取释放后的扫描码
     scancode = inportb(0x60);
-
+    
     if(scancode&0x80){
-        puts(scancode);
+        putch(scancode);
     }else{
-        puts(kbdus[scancode]);
+
+        putch(kbdus[scancode]);
     }
 }
 
